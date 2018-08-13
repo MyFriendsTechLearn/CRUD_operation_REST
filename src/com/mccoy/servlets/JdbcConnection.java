@@ -15,7 +15,7 @@ public class JdbcConnection {
 				con=DriverManager.getConnection("jdbc:oracle:thin:@192.168.1.12:1521:XE","system","tiger");
 				
 			System.out.println("jdbc connection succeseeded");
-			
+			System.out.println("test connection succeseeded");
 			}catch(ClassNotFoundException e){
 				e.printStackTrace();
 				}catch(SQLException e){
